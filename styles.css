@@ -68,7 +68,13 @@ header h1{
     grid-template-columns: 30% 30% 30%;
     justify-content: center;
     align-items: center;
+    padding-bottom: 10px;
    
+}
+
+.learn-about h2{
+    color: #48BB78;
+    font-size: 21px;
 }
 
 .card{
@@ -105,3 +111,62 @@ header h1{
     text-align: center;
     padding: 10px;
 }
+.stories .container{
+    display: grid;
+    padding-top: 50px;
+}
+
+
+.stories .container img{
+    width: 200px;
+    height: 200px;;
+    border-radius: 50%;
+    float: left;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.article-body{
+    width: 90%;
+
+}
+
+.article-body h3{
+    font-size: 18px;
+}
+
+.stories h2, .stories .container a{
+    color: #5A67D8;
+}
+
+.newsletter .container{
+    background-color: #48BB78;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.newsletter p{
+    width: 50%;
+}
+
+form{
+    display: flex;
+}
+
+footer .container{
+    background-color: #4A5568;
+    color: white;
+    height: 60px;
+    padding-top: 0px;
+}
+
+footer p{
+    padding-top: 20px;
+    padding-left: 90px;
+}
+
